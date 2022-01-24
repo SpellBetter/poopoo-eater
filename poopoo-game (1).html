@@ -182,8 +182,11 @@
           document.querySelector("#noelle").style.width = w + "px";
 
           if (dist(poopoox, poopooy, x, y) < 100) {
-            poopoox = random(screen.width - w);
-            poopooy = random(screen.height - w);
+//             poopoox = random(screen.width - w);
+//             poopooy = random(screen.height - w);
+               poopoox = width/2;
+               poopooy = height/2;
+               
             score++;
           }
           if(keys[82] && keys[83] && keys[74]){
